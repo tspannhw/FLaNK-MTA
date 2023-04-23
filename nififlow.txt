@@ -1,0 +1,16 @@
+[Source]
+* Type: GTFS Feed
+* Location: https://tripdata.mta.info/mta_bus_feed.zip
+
+[Processor]
+* Type: Route Shape Processor
+* Properties:
+    * Shape Field: shape_id
+    * Shape Points Field: shape_points
+    * Shape Coordinates Field: shape_coordinates
+
+[Sink]
+* Type: Elasticsearch
+* Properties:
+    * Index Name: mta_transit
+    * Document Type: route_shape
