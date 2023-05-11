@@ -31,6 +31,7 @@ MTA Data Sources
 * https://bustime.mta.info/wiki/Developers/CancelledTripAPIFeatures
 * https://github.com/google/transit/blob/master/gtfs-realtime/spec/en/vehicle-positions.md
 * https://github.com/OneBusAway/onebusaway-gtfs-realtime-api
+* http://web.mta.info/developers/developer-data-terms.html#data
 
 
 ### GTFS Real-Time Feed
@@ -40,7 +41,6 @@ MTA Data Sources
 
 ### Data
 
-* http://web.mta.info/developers/developer-data-terms.html#data
 * http://web.mta.info/status/serviceStatus.txt
 * http://web.mta.info/developers/data/nyct/turnstile/turnstile_230506.txt
 * http://web.mta.info/status/ServiceStatusSubway.xml
