@@ -29,6 +29,7 @@ MTA Data Sources
 * http://web.mta.info/developers/resources/nyct/EES/ElevEscDefinitions.pdf
 * http://developer.onebusaway.org/modules/onebusaway-application-modules/current/api/where/index.html
 * https://bustime.mta.info/wiki/Developers/CancelledTripAPIFeatures
+* https://github.com/google/transit/blob/master/gtfs-realtime/spec/en/vehicle-positions.md
 
 
 ### GTFS Real-Time Feed
