@@ -1,0 +1,287 @@
+{
+ "type": "record",
+ "name": "mta",
+ "namespace": "org.apache.nifi",
+ "fields": [
+  {
+   "name": "StopPointRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "VehicleRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ProgressRate",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ExpectedDepartureTime",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "StopPoint",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "VisitNumber",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DataFrameRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "StopPointName",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "SituationSimpleRef5",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "SituationSimpleRef3",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "Bearing",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "SituationSimpleRef4",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "SituationSimpleRef1",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "OriginAimedDepartureTime",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "SituationSimpleRef2",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "JourneyPatternRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "RecordedAtTime",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "OperatorRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DestinationName",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ExpectedArrivalTime",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "BlockRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "LineRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "VehicleLocationLongitude",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DirectionRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ArrivalProximityText",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DistanceFromStop",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "EstimatedPassengerCapacity",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "AimedArrivalTime",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "PublishedLineName",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DatedVehicleJourneyRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "Date",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "Monitored",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ProgressStatus",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DestinationRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "EstimatedPassengerCount",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "VehicleLocationLatitude",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "OriginRef",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "NumberOfStopsAway",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ts",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "uuid",
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ ]
+}
