@@ -27,6 +27,7 @@ MTA Data Sources
 * https://new.mta.info/developers
 * http://web.mta.info/developers/resources/nyct/EES/EENotes.pd
 * http://web.mta.info/developers/resources/nyct/EES/ElevEscDefinitions.pdf
+* http://developer.onebusaway.org/modules/onebusaway-application-modules/current/api/where/index.html
 
 
 ### GTFS Real-Time Feed
@@ -49,6 +50,11 @@ MTA Data Sources
 * Bicycle Count https://data.cityofnewyork.us/resource/uczf-rk3c.json
 * https://data.ny.gov/resource/vxuj-8kew.json
 * http://web.mta.info/developers/fare.html
+* https://data.cityofnewyork.us/resource/xjfq-wh2d.json
+* https://data.cityofnewyork.us/resource/erdf-2akx.json
+* https://data.cityofnewyork.us/resource/8vv7-7wx3.json
+* https://data.cityofnewyork.us/resource/h9gi-nx95.json
+* https://data.cityofnewyork.us/resource/f55k-p6yu.json
 
 ### More Data
 
@@ -59,3 +65,8 @@ MTA Data Sources
 * For information on the stops that serve a route, use <a href="http://bustime.mta.info/api/where/stops-for-route/MTA%20NYCT_M1.json?key=YOUR_KEY_HERE&includePolylines=false&version=2">http://bustime.mta.info/api/where/stops-for-route/MTA%20NYCT_M1.json?key=YOUR_KEY_HERE&includePolylines=false&version=2</a>{{/html}}
 * For information on stops near a location, use http://bustime.mta.info/api/where/stops-for-location.json?lat=40.748433&lon=-73.985656&latSpan=0.005&lonSpan=0.005&key=YOUR_KEY_HERE
 * https://data.ny.gov/browse?category=Transportation&utf8=%E2%9C%93
+
+
+### References
+
+* https://github.com/KatsuteDev/OneMTA
