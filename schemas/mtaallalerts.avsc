@@ -1,0 +1,105 @@
+{
+ "type": "record",
+ "name": "mtaallalerts",
+ "namespace": "org.apache.nifi",
+ "fields": [
+  {
+   "name": "station",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "borough",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "trainno",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "equipment",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "equipmenttype",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "serving",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ADA",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "outagedate",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "estimatedreturntoservice",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "reason",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "isupcomingoutage",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ismaintenanceoutage",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "ts",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "uuid",
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ ]
+}
