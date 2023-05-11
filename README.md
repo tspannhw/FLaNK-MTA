@@ -35,6 +35,7 @@ MTA Data Sources
 * https://github.com/MobilityData/mobility-database-catalogs/tree/main/catalogs/sources/gtfs/realtime
 * https://docs.cloudera.com/data-visualization/7/ref-admin-api/topics/viz-admin-api-curl-format.html
 * https://github.com/MobilityData/gtfs-realtime-bindings/blob/master/python/README.md
+* https://swiftly-inc.stoplight.io/docs/realtime-standalone/d08fc97489edb-swiftly-api-reference
 
 
 ### GTFS Real-Time Feed
