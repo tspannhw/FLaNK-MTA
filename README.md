@@ -33,6 +33,7 @@ MTA Data Sources
 * https://github.com/OneBusAway/onebusaway-gtfs-realtime-api
 * http://web.mta.info/developers/developer-data-terms.html#data
 * https://github.com/MobilityData/mobility-database-catalogs/tree/main/catalogs/sources/gtfs/realtime
+* https://docs.cloudera.com/data-visualization/7/ref-admin-api/topics/viz-admin-api-curl-format.html
 
 
 ### GTFS Real-Time Feed
