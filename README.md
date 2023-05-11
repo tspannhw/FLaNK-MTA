@@ -2,13 +2,19 @@
 MTA Data Sources
 
 
-### Other Related Datasources
+### Other Related Datasources (especially with Latitude, Longitude, City Name, Zip Code, Country, State, Location)
 
 * NYC Traffic Cameras
 * TRANSCOM Feeds
 * Government Status
-* Social Media (facebook, twitter, mastodon, bluesky, RSS, ...)
-
+* Social Media (facebook, twitter, mastodon, bluesky, reddit, youtube, RSS, ...)
+* Air Quality (2 sources)
+* ADSB Plane Tracking (Lat,Long)
+* Weather (Lat, Long, Zip)
+* RSS Feeds
+* News Feeds
+* Government Feeds
+* NJ Transit Bus, Rail, Light Rail, Travel Advisories as RSS/XML
 
 ### Developer Docs
 
@@ -38,14 +44,7 @@ MTA Data Sources
 
 ### More Data
 
-* NYC Traffic Cameras
-* TRANSCOM Feeds (Lat, Long)
-* ADSB Plane Tracking (Lat,Long)
-* Weather Data (Lat, Long, Zip)
-* Twitter / Mastodon / BlueSky / Aggregator / Reddit / Social Media
-* RSS Feeds
-* News Feeds
-* NJ Transit Bus, Rail, Light Rail, Travel Advisories as RSS/XML
+
 * To get the list of and metadata for the agencies covered by MTA Bus Time, use: http://bustime.mta.info/api/where/agencies-with-coverage.xml?key=YOUR_KEY_HERE
 * To get the list of and metadata for the MTA NYCT and MTABC routes covered by MTA Bus Time, use: http://bustime.mta.info/api/where/routes-for-agency/MTA%20NYCT.xml?key=YOUR_KEY_HERE
 * For information on one specific stop served by MTA Bus Time, use: http://bustime.mta.info/api/where/stop/MTA_STOP-ID.xml?key=YOUR_KEY_HERE
