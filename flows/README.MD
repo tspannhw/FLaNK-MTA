@@ -33,3 +33,4 @@ nifi list-param-contexts -u https://localhost:8443 -ot simple
 * https://docs.cloudera.com/cdp-public-cloud/cloud/cli/topics/mc-installing-cdp-client.html
 * https://nifi.apache.org/docs/nifi-docs/html/toolkit-guide.html
 * https://docs.cloudera.com/cdf-datahub/7.2.14/registry-export-import-nifi-cli/topics/cdf-datahub-connect-registry-nifi-cli.html
+* https://nifi.apache.org/docs/nifi-docs/html/walkthroughs.html#:~:text=On%20most%20modern%20OS%2C%20double,in%20CN%3Dmy_username_OU%3DNiFi.
