@@ -13,6 +13,7 @@ MTA Data Sources
 * Weather (Lat, Long, Zip)
 * RSS Feeds
 * News Feeds
+* CitiBike
 * Government Feeds
 * NJ Transit Bus, Rail, Light Rail, Travel Advisories as RSS/XML
 
@@ -41,6 +42,11 @@ MTA Data Sources
 * http://web.mta.info/developers/data/nyct/plannedwork.xml
 * http://web.mta.info/developers/data/lirr/lirr_gtfs.json
 * http://web.mta.info/developers/data/lirr/lirr_gtfs_header.json
+* https://data.ny.gov/resource/i9wp-a4ja.json
+* https://data.cityofnewyork.us/resource/i4gi-tjb9.json
+* Bicycle Count https://data.cityofnewyork.us/resource/uczf-rk3c.json
+* https://data.ny.gov/resource/vxuj-8kew.json
+* http://web.mta.info/developers/fare.html
 
 ### More Data
 
