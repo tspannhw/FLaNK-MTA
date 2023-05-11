@@ -1,11 +1,12 @@
-# FLaNK-MTA
-MTA Data Sources
+# FLaNK-MTA 
+
+MTA Data Sources as well as other New York, New Jersey and Pennsylvania Data
 
 
 ### Other Related Datasources (especially with Latitude, Longitude, City Name, Zip Code, Country, State, Location)
 
 * NYC Traffic Cameras
-* TRANSCOM Feeds
+* TRANSCOM Feeds 
 * Government Status
 * Social Media (facebook, twitter, mastodon, bluesky, reddit, youtube, RSS, ...)
 * Air Quality (2 sources)
@@ -36,6 +37,7 @@ MTA Data Sources
 * https://docs.cloudera.com/data-visualization/7/ref-admin-api/topics/viz-admin-api-curl-format.html
 * https://github.com/MobilityData/gtfs-realtime-bindings/blob/master/python/README.md
 * https://swiftly-inc.stoplight.io/docs/realtime-standalone/d08fc97489edb-swiftly-api-reference
+* http://www3.septa.org/#/
 
 
 ### GTFS Real-Time Feed
