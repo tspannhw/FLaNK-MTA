@@ -28,6 +28,7 @@ MTA Data Sources
 * http://web.mta.info/developers/resources/nyct/EES/EENotes.pd
 * http://web.mta.info/developers/resources/nyct/EES/ElevEscDefinitions.pdf
 * http://developer.onebusaway.org/modules/onebusaway-application-modules/current/api/where/index.html
+* https://bustime.mta.info/wiki/Developers/CancelledTripAPIFeatures
 
 
 ### GTFS Real-Time Feed
@@ -55,9 +56,12 @@ MTA Data Sources
 * https://data.cityofnewyork.us/resource/8vv7-7wx3.json
 * https://data.cityofnewyork.us/resource/h9gi-nx95.json
 * https://data.cityofnewyork.us/resource/f55k-p6yu.json
+* http://web.mta.info/developers/data/nyct/subway/StationComplexes.csv
+* https://gtfsrt.prod.obanyc.com/tripUpdates
+* https://gtfsrt.prod.obanyc.com/alerts
+
 
 ### More Data
-
 
 * To get the list of and metadata for the agencies covered by MTA Bus Time, use: http://bustime.mta.info/api/where/agencies-with-coverage.xml?key=YOUR_KEY_HERE
 * To get the list of and metadata for the MTA NYCT and MTABC routes covered by MTA Bus Time, use: http://bustime.mta.info/api/where/routes-for-agency/MTA%20NYCT.xml?key=YOUR_KEY_HERE
@@ -66,7 +70,11 @@ MTA Data Sources
 * For information on stops near a location, use http://bustime.mta.info/api/where/stops-for-location.json?lat=40.748433&lon=-73.985656&latSpan=0.005&lonSpan=0.005&key=YOUR_KEY_HERE
 * https://data.ny.gov/browse?category=Transportation&utf8=%E2%9C%93
 
+### TODO
+
+* Make a SODA Processors for NiFi https://dev.socrata.com/consumers/getting-started.html
 
 ### References
 
 * https://github.com/KatsuteDev/OneMTA
+* http://siri.org.uk/schema/schemas.htm
