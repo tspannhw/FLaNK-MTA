@@ -17,10 +17,12 @@ cdp df import-flow-definition \
 ### NiFi Toolkit
 
 ````
-nifi-toolkit-1.20.0 bin/cli.sh
+cd nifi-toolkit-1.20.0 
+bin/cli.sh
 
 session set nifi.props base.props
 
+nifi list-param-contexts -u https://localhost:8443 -ot simple
 
 ````
   
