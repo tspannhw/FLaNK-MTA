@@ -2,6 +2,13 @@
 MTA Data Sources
 
 
+### Other Related Datasources
+
+* NYC Traffic Cameras
+* TRANSCOM Feeds
+* Government Status
+* Social Media (facebook, twitter, mastodon, bluesky, RSS, ...)
+
 
 ### Developer Docs
 
@@ -26,11 +33,22 @@ MTA Data Sources
 * http://web.mta.info/status/ServiceStatusSubway.xml
 * http://web.mta.info/status/ServiceStatusBus.xml
 * http://web.mta.info/developers/data/nyct/plannedwork.xml
+* http://web.mta.info/developers/data/lirr/lirr_gtfs.json
+* http://web.mta.info/developers/data/lirr/lirr_gtfs_header.json
 
 ### More Data
 
-To get the list of and metadata for the agencies covered by MTA Bus Time, use: http://bustime.mta.info/api/where/agencies-with-coverage.xml?key=YOUR_KEY_HERE
-To get the list of and metadata for the MTA NYCT and MTABC routes covered by MTA Bus Time, use: http://bustime.mta.info/api/where/routes-for-agency/MTA%20NYCT.xml?key=YOUR_KEY_HERE
-For information on one specific stop served by MTA Bus Time, use: http://bustime.mta.info/api/where/stop/MTA_STOP-ID.xml?key=YOUR_KEY_HERE
-For information on the stops that serve a route, use <a href="http://bustime.mta.info/api/where/stops-for-route/MTA%20NYCT_M1.json?key=YOUR_KEY_HERE&includePolylines=false&version=2">http://bustime.mta.info/api/where/stops-for-route/MTA%20NYCT_M1.json?key=YOUR_KEY_HERE&includePolylines=false&version=2</a>{{/html}}
-For information on stops near a location, use http://bustime.mta.info/api/where/stops-for-location.json?lat=40.748433&lon=-73.985656&latSpan=0.005&lonSpan=0.005&key=YOUR_KEY_HERE
+* NYC Traffic Cameras
+* TRANSCOM Feeds (Lat, Long)
+* ADSB Plane Tracking (Lat,Long)
+* Weather Data (Lat, Long, Zip)
+* Twitter / Mastodon / BlueSky / Aggregator / Reddit / Social Media
+* RSS Feeds
+* News Feeds
+* NJ Transit Bus, Rail, Light Rail, Travel Advisories as RSS/XML
+* To get the list of and metadata for the agencies covered by MTA Bus Time, use: http://bustime.mta.info/api/where/agencies-with-coverage.xml?key=YOUR_KEY_HERE
+* To get the list of and metadata for the MTA NYCT and MTABC routes covered by MTA Bus Time, use: http://bustime.mta.info/api/where/routes-for-agency/MTA%20NYCT.xml?key=YOUR_KEY_HERE
+* For information on one specific stop served by MTA Bus Time, use: http://bustime.mta.info/api/where/stop/MTA_STOP-ID.xml?key=YOUR_KEY_HERE
+* For information on the stops that serve a route, use <a href="http://bustime.mta.info/api/where/stops-for-route/MTA%20NYCT_M1.json?key=YOUR_KEY_HERE&includePolylines=false&version=2">http://bustime.mta.info/api/where/stops-for-route/MTA%20NYCT_M1.json?key=YOUR_KEY_HERE&includePolylines=false&version=2</a>{{/html}}
+* For information on stops near a location, use http://bustime.mta.info/api/where/stops-for-location.json?lat=40.748433&lon=-73.985656&latSpan=0.005&lonSpan=0.005&key=YOUR_KEY_HERE
+* https://data.ny.gov/browse?category=Transportation&utf8=%E2%9C%93
