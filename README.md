@@ -30,7 +30,7 @@ MTA Data Sources
 * http://developer.onebusaway.org/modules/onebusaway-application-modules/current/api/where/index.html
 * https://bustime.mta.info/wiki/Developers/CancelledTripAPIFeatures
 * https://github.com/google/transit/blob/master/gtfs-realtime/spec/en/vehicle-positions.md
-* https://github.com/OneBusAway/onebusaway-gtfs-realtime-api/tree/master
+* https://github.com/OneBusAway/onebusaway-gtfs-realtime-api
 
 
 ### GTFS Real-Time Feed
