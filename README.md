@@ -16,6 +16,8 @@ MTA Data Sources
 * CitiBike
 * Government Feeds
 * NJ Transit Bus, Rail, Light Rail, Travel Advisories as RSS/XML
+* PA Traffic Cameras
+* Weather Cameras
 
 ### Developer Docs
 
