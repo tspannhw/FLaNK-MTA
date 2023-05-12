@@ -40,6 +40,7 @@ MTA Data Sources as well as other New York, New Jersey and Pennsylvania Data
 * http://www3.septa.org/#/
 * https://realtime.septa.org/schedules
 * https://dev.socrata.com/foundry/data.cityofnewyork.us/i4gi-tjb9
+* https://data.cityofnewyork.us/Transportation/Real-Time-Traffic-Speed-Data/qkm5-nuaq
 
 
 ### GTFS Real-Time Feed
