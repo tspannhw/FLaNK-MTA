@@ -39,6 +39,7 @@ MTA Data Sources as well as other New York, New Jersey and Pennsylvania Data
 * https://swiftly-inc.stoplight.io/docs/realtime-standalone/d08fc97489edb-swiftly-api-reference
 * http://www3.septa.org/#/
 * https://realtime.septa.org/schedules
+* https://dev.socrata.com/foundry/data.cityofnewyork.us/i4gi-tjb9
 
 
 ### GTFS Real-Time Feed
