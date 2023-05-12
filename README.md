@@ -66,8 +66,6 @@ MTA Data Sources as well as other New York, New Jersey and Pennsylvania Data
 * https://data.cityofnewyork.us/resource/h9gi-nx95.json
 * https://data.cityofnewyork.us/resource/f55k-p6yu.json
 * http://web.mta.info/developers/data/nyct/subway/StationComplexes.csv
-* https://gtfsrt.prod.obanyc.com/tripUpdates
-* https://gtfsrt.prod.obanyc.com/alerts
 
 ### GTFS Real-Time Data
 
@@ -87,7 +85,8 @@ MTA Data Sources as well as other New York, New Jersey and Pennsylvania Data
 * https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Flirr-alerts
 * https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fmnr-alerts
 * https://github.com/MobilityData/mobility-database-catalogs/blob/main/catalogs/sources/gtfs/realtime/us-new-york-nyc-ferry-gtfs-rt-tu-1638.json
-
+* https://gtfsrt.prod.obanyc.com/tripUpdates
+* https://gtfsrt.prod.obanyc.com/alerts
 
 ### More Data
 
