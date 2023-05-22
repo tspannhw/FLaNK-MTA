@@ -2,6 +2,26 @@
 
 MTA Data Sources as well as other New York, New Jersey and Pennsylvania Data
 
+### Finding the Best Way Around
+
+See:  https://medium.com/@tspann/finding-the-best-way-around-7491c76ca4cb
+
+
+TITLE:  Utilizing Real-Time Transit Data for Travel Optimization
+
+
+ABSTRACT: There are a lot of factors involved in determining how you can find our way around and avoid delays, bad weather, 
+dangers and expenses. In this article we will focus on public transport in the largest transit system in the United States, the MTA, 
+the is focused around New York City. Utilizing public and semi-public data feeds, this can be extended to most city and 
+metropolitan areas around the world.
+
+Once we get our first sample data back from the MTA, we will want to see how we should transform, convert, enrich and finalize it for usage in 
+streaming tables with Flink SQL, but also keep that same contract with Kafka consumers, Iceberg tables and other users of this data. 
+A consistent data contract starts with a data schema defining names, nullability and type.
+
+We are implementing our real-time travel optimization application utilizing all Apache projects including Apache NiFi, Apache Kafka, Apache OpenNLP,
+Apache Tika, Apache Flink, Apache Avro, Apache Parquet, Apache Iceberg, 
+
 
 ### Other Related Datasources (especially with Latitude, Longitude, City Name, Zip Code, Country, State, Location)
 
