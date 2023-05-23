@@ -25,3 +25,6 @@ function DISTANCE_BETWEEN(lat1, lon1, lat2, lon2) {
   return (d / 1.60934);
 }
 DISTANCE_BETWEEN($p0, $p1, $p2, $p3)
+
+
+// DISTANCE_BETWEEN(40.625249, -73.960783, 40.780693, -73.980105)
