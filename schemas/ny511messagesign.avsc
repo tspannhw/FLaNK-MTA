@@ -1,0 +1,73 @@
+{
+ "type": "record",
+ "name": "ny511messagesign",
+ "namespace": "org.apache.nifi",
+ "fields": [
+  {
+   "name": "Latitude",
+   "type": [
+    "double",
+    "null"
+   ]
+  },
+  {
+   "name": "Longitude",
+   "type": [
+    "double",
+    "null"
+   ]
+  },
+  {
+   "name": "ID",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "Name",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "Roadway",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "DirectionOfTravel",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "Messages",
+   "type": [
+    {
+     "type": "array",
+     "items": "string"
+    },
+    "null"
+   ]
+  },
+  {
+   "name": "ts",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "uuid",
+   "type": [
+    "string",
+    "null"
+   ]
+  }
+ ]
+}
