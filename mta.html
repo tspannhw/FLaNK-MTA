@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>MTA - FLaNK Stack with NiFi, Kafka, Flink, Materialize View HTML</title>
+<link rel="stylesheet" type="text/css"  href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+</head>
+<body bgcolor="white" text="black">
+
+<div style="font-size: 30; font-weight: bold; font-family: sans-serif;">
+    <p>
+        <strong><b>NiFi/Kafka/Flink - Data Tables - MTA</b></strong>
+     </p>
+         <img height="400" width="1000" src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZaoDbTFnQ-qDlIHk-fRtpQ.png">
+</div>
+<br>
+<table id="mtatable" class="display" style="width:100%; text-align:left;">
+        <thead>
+            <tr>
+                       <th valign="left"><b>Vehicle</b></th>
+                       <th valign="left"><b>Stop</b></th>
+                       <th valign="left"><b>Destination</b></th>
+                       <th valign="left"><b>Expected Arrival</b></th>
+                       <th valign="left"><b>How Close?</b></th>
+                       <th valign="left"><b>Distance Away</b></th>
+                       <th valign="left"><b># of Passengers</b></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                       <th valign="left"><b>Vehicle</b></th>
+                       <th valign="left"><b>Stop</b></th>
+                       <th valign="left"><b>Destination</b></th>
+                       <th valign="left"><b>Expected Arrival</b></th>
+                       <th valign="left"><b>How Close?</b></th>
+                       <th valign="left"><b>Distance Away</b></th>
+                       <th valign="left"><b># of Passengers</b></th>
+            </tr>
+        </tfoot>
+    </table>
+<script>
+function isEmpty(val){
+    return (val === undefined || val == null || val.length <= 0) ? true : false;
+}
+function IsJsonString(str) {
+    try {
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+$(document).ready(function() {
+    var t = $('#mtatable').DataTable();
+
+$.getJSON(
+    'http://localhost:18131/api/v1/query/5204/mta?key=2730dfe0-1e2d-4f74-866a-52f372531d60&limit=100', 
+    function(data) {
+      $.each( data, function( key, val ) {
+        console.log( data[key].VehicleRef );
+
+        var VehicleRef= "";
+        if ( !isEmpty(data[key].VehicleRef) ) {
+            VehicleRef = data[key].VehicleRef;
+        }
+        var StopPointName= "";
+        if ( !isEmpty(data[key].StopPointName) ) {
+            StopPointName = data[key].StopPointName;
+        }
+        var DestinationName= "";
+        if ( !isEmpty(data[key].DestinationName) ) {
+            DestinationName = data[key].DestinationName;
+        }
+        var ExpectedArrivalTime= "";
+        if ( !isEmpty(data[key].ExpectedArrivalTime) ) {
+            ExpectedArrivalTime = data[key].ExpectedArrivalTime;
+        }
+        var ArrivalProximityText= "";
+        if ( !isEmpty(data[key].ArrivalProximityText) ) {
+            ArrivalProximityText = data[key].ArrivalProximityText;
+        }
+        var DistanceFromStop= "";
+        if ( !isEmpty(data[key].DistanceFromStop) ) {
+            DistanceFromStop = data[key].DistanceFromStop;
+        }
+        var EstimatedPassengerCount= "";
+        if ( !isEmpty(data[key].EstimatedPassengerCount) ) {
+            EstimatedPassengerCount = data[key].EstimatedPassengerCount;
+        }
+        t.row.add( [ VehicleRef, StopPointName, DestinationName, ExpectedArrivalTime,
+                     ArrivalProximityText, DistanceFromStop, EstimatedPassengerCount ]).draw(true);
+      });
+    });
+}); 
+</script>
+<p>
+<br>
+<img src="https://github.com/tspannhw/FLaNK-Store/blob/main/images/thefuturenificity4.jpg?raw=true">    
+</p>
+<p><br></p><br>
+&copy; 2021-2022-2023 Tim Spann @PaasDev - datainmotion.dev
+<br>           
+</body>
+</html>
